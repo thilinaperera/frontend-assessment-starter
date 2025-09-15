@@ -172,7 +172,7 @@ interface Task {
    - Animation choices rationale
    - Time breakdown (actual vs planned)
    - Known limitations or trade-offs
-3. **Demo link** (Vercel/Netlify deployment preferred)
+3. **Demo link** (Vercel/Netlify/Cloudflare)
 
 **What we'll evaluate:**
 
