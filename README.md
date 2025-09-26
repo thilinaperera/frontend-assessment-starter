@@ -42,4 +42,6 @@ Animations for adding tasks and marking them as completed were planned but not i
 - Focused on **core functionality** and a basic UI due to time limits.  
 - Layout is **minimal** and not optimised for larger screens.  
 - Components are **basic and only partially reusable**, further refactoring would be needed.  
-- Dialog components were used with **minimal customization** to save time on styling.  
+- Dialog components were used with **minimal customization** to save time on styling.
+- Unit tests were not implemented due to time constraints.
+- Error handling and error boundary are **basic**, further refactoring would be needed. 
