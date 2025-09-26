@@ -17,7 +17,8 @@ The app is divided into two main sections:
 - **Task creation** (adding new tasks)  
 - **Task list** (displaying existing tasks)  
 
-![screenshot](screenshot.png)
+The initial UI design was based on the following mockup:  
+![Screenshot of initial design](screenshot.png)
 
 Animations for adding tasks and marking them as completed were planned but not implemented because of limited time.
 
