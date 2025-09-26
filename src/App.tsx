@@ -154,7 +154,7 @@ function App() {
           <h2 className="mb-4 text-lg font-semibold text-gray-900">
             Your Implementation Space
           </h2>
-          <div className="rounded-lg border-2 border-dashed border-gray-200 p-8 text-center">
+          <div className="rounded-lg border-2 border-dashed border-gray-200 p-2 text-center">
             <TaskDashboard />
           </div>
         </div>
