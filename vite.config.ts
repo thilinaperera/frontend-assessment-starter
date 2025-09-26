@@ -13,5 +13,9 @@ export default defineConfig({
       "@/utils": resolve(__dirname, "src/utils"),
     },
   },
-  preview: { port: 5001, host: "0.0.0.0" },
+  preview: {
+    port: 5001,
+    host: "0.0.0.0",
+    allowedHosts: ["task-dashboard.apphostcloud.link"],
+  },
 });
