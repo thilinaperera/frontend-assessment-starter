@@ -42,10 +42,11 @@ Animations for adding tasks and marking them as completed were planned but not i
 - Focused on **core functionality** and a basic UI due to time limits.  
 - Layout is **minimal** and not optimised for larger screens.  
 - Components are **basic and only partially reusable**, further refactoring would be needed.  
-- Dialog components were used with **minimal customization** to save time on styling.
+- Radix Dialog components were used with **minimal customization** to save time on styling.
 - Unit tests were not implemented due to time constraints.
 - Error handling and error boundary are **basic**, further refactoring would be needed. 
 
-## Deloyment
-- The application is deloyed on Varcel and can be accessed [here](https://frontend-assessment-starter-phi.vercel.app/).
-- And the Dockerfile is added for custom deployment to my own server.
+## 🚀 Deployment / Preview
+
+- The application is deployed on **Vercel** and can be accessed [here](https://frontend-assessment-starter.vercel.app/).  
+- A **Dockerfile** is also included for custom deployment. The app is deployed on my own server and available [here](https://task-dashboard.apphostcloud.link/). 
