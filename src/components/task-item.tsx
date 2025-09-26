@@ -37,7 +37,7 @@ export const TaskItem = ({ task }: TaskItemProps) => {
         },
       )}
     >
-      <div className="mr-4 flex items-start">
+      <div className="flex items-start">
         <div className="mt-1 flex items-start">
           <Checkbox
             checked={task.completed}

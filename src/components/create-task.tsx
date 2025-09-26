@@ -96,7 +96,7 @@ export const CreateTask = () => {
           placeholder="Title"
           aria-label="Task Title"
         />
-        <div className="flex w-full gap-4">
+        <div className="flex w-full flex-col gap-4 sm:flex-row">
           <Select
             isInvalid={errors.priority}
             items={[
