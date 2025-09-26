@@ -1,7 +1,7 @@
 import { TaskContext } from "@/contexts/tasks-context";
 import { useStorage } from "@/hooks/use-storage";
 import { Task, TaskFormData } from "@/types";
-import { PropsWithChildren, useEffect, useState } from "react";
+import { PropsWithChildren, useEffect, useMemo, useState } from "react";
 
 export const TasksProvider = ({ children }: PropsWithChildren) => {
   const [tasks, setTasks] = useState<Task[]>([]);
@@ -41,16 +41,10 @@ export const TasksProvider = ({ children }: PropsWithChildren) => {
     saveToStorage("tasks", updatedTasks);
   };
 
-  return (
-    <TaskContext.Provider
-      value={{
-        tasks,
-        addTask,
-        removeTask,
-        toggleTaskCompletion,
-      }}
-    >
-      {children}
-    </TaskContext.Provider>
+  const value = useMemo(
+    () => ({ tasks, addTask, removeTask, toggleTaskCompletion }),
+    [tasks],
   );
+
+  return <TaskContext.Provider value={value}>{children}</TaskContext.Provider>;
 };
